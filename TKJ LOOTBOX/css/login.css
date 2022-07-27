@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+main .container {
+    width: 55%;
+    height: 400px;
+    padding: 50px;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+}
+main .container .bg{
+    width: 40%;
+    height: 400px;
+}
+main .container .bg .satu img{
+    width: 300px;
+}
+main .container .bg .dua img{
+    width: 200px;
+    margin-left: 100px;
+}
+main .container .form {
+    width: 60%;
+}
+main .container .heading {
+    width: 80%;
+    margin: 0px 0px 30px 20px;
+}
+main .container .heading p {
+    color: rgb(87, 87, 87);
+    width: 90%;
+}
+main .container form {
+    width: 80%;
+    margin-left: 20px;
+}
+main .container form label {
+    font-weight: bolder;
+}
+main .container form input {
+    border: none;
+    border-bottom: solid 1px #000;
+    width: 85%;
+    padding: 5px;
+    margin: 10px 0;
+}
+main .container form .forget {
+    width: 88%;
+    height: 0px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+main .container form .forget a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: smaller;
+}
+main .container form .forget a:hover {
+    color: rgb(68, 68, 68);
+}
+main .container form button {
+    width: 90%;
+    border: none;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding: 8px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+main .container form button:hover {
+    background-color: rgb(68, 68, 68);
+}
+main .container form .regist {
+    width: 85%;
+    text-align: center;
+}
+main .container form .regist p {
+    font-size: small;
+}
+main .container form .regist p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+main .container form .regist a:hover {
+    color: rgb(68, 68, 68);
+}
+@media only screen and (max-width:850px){
+    body{
+        overflow-x: hidden;
+    }
+    main .container .bg {
+        display: none;
+    }
+    main .container {
+        width: 90%;
+        height: 400px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 35%;
+        left: 50%;
+    }
+    main .container .form {
+        width: 100%;
+    }
+    main .container .heading {
+        width: 90%;
+        margin: 0px 0px 30px 20px;
+    }
+    main .container .heading p {
+        color: rgb(87, 87, 87);
+        width: 100%;
+    }
+    main .container form {
+        width: 100%;
+    }
+}
