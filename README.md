@@ -1,5 +1,5 @@
 # ini apaan?
-Ini namanya TKJ LOOTBOX, website manajemen peminjaman barang dan alat praktek jurusan TKJ (bisa dibilang inventaris sih sebenernya).
+Ini namanya TKJ LOOTBOX, website manajemen barang dan alat praktek jurusan TKJ (bisa dibilang inventaris sih sebenernya).
 
 # bikinnya pake apa?
 - PHP
