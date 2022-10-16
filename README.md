@@ -7,14 +7,14 @@ Ini namanya TKJ LOOTBOX, website manajemen barang dan alat praktek jurusan TKJ (
 
 # Fiturnya apa aja?
 - Login Multi-user
-- Tambah Barang Baru
-- Tambah Riwayat Peminjaman Barang
-- Tambah Riwayat Pengembalian Barang
-- Tambah Daftar Barang Rusak
-- Tambah Daftar Siswa yang boleh meminjam barang
+- CRUD Barang Baru
+- CRUD Riwayat Peminjaman Barang
+- CRUD Riwayat Pengembalian Barang
+- CRUD Daftar Barang Rusak
+- CRUD Daftar Siswa yang boleh meminjam barang
 
 # Open Source
-Kalian boleh clone terus kembangin web nya buat project kalian sendiri, lagian ini cuma PHP Native (first time bikin website admin) jadi yaa ada beberapa kekurangannya hehe
+Kalian boleh clone terus kembangin web nya buat project kalian sendiri, lagian ini cuma PHP Native dan fitur utamanya cuma CRUD (first time bikin website admin) jadi yaa ada beberapa kekurangannya hehe
 
 # Mau bilang makasih dulu
 - Buat Allah SWT
